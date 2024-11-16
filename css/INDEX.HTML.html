@@ -1,0 +1,487 @@
+--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stilo.css"> 
+    <title>GYBHOR</title>
+</head>
+<body>
+    <!-- MENU -->
+     <div class="contenedor-header">
+        <header>
+            <h1>GY<span class="txtRojo">BHOR</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="Seleccionar()">Inicio</a>
+                <a href="#servicios" onclick="Seleccionar()">Servicios</a>
+                <a href="#galeria" onclick="Seleccionar()">Galeria</a>
+                <a href="#horario" onclick="Seleccionar()">Horario</a>
+                <a href="#equipo" onclick="Seleccionar()">Equipo</a>
+                <a href="#ubicacion" onclick="Seleccionar()">Ubicacion</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="nav-responsive" id="icono-nav" onclick=" mostrarOcultarMenu">
+                <i class="fa-solid fa-bars"></i>
+                
+            </div>
+        </header>
+
+     </div>
+     <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p>Triunfar es mas facil de lo que piensas!</p>
+                <a href="#EQUIPO" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.FITNESS
+                </div>
+                <div class="opcion">
+                    02.CALISTENIA
+                </div>
+                <div class="opcion">
+                    03.GIMNASIO
+                </div>
+                <div class="opcion">
+                    04.HORARIO
+                </div>
+                <div class="opcion">
+                    05.UBICACION
+                </div>
+            </div>
+        </div>
+     </section>
+     <!--SECCION HORARIO-->
+     <section id="horario" class="horario">
+        <div class="fila">
+            <div class="col">
+                <img src="img/imagen 3.jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA </span>
+                        <h2> HORARIO</h2>
+                    </div>
+                </div>
+                <p>"Transforma tu cuerpo y mente en nuestro gimnasio: ¡abierto todos los dias para ti! Horarios amplios y flexibles para adaptarnos a tu ritmo de vida. Entrena con nosotros y alcanza tus metas!"". Disponibles desde las</p>
+                <p>
+                   5am - 10pm donde podras despejar tu mente y cambiar tu estilo de vida
+                </p>
+                <P class="p-especial"> INFORMACION IMPORTANTE </P>
+                <p>Los dias feriados el gimansio se encontrara disponible de igual manera desde las</p>
+                <p>7am - 8:30pm</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-maquinas">
+            <div class="coll">
+                <span class="frase">
+                    <span class="txtRojo">ENTRENA </span>DIFERENTE
+                </span>
+                <h2>ENTRENA <span class="txtRojo">GRATIS</span> HOY!</h2>
+            </div>
+            <div class="col2">
+                <button>PASE LIBRE</button>
+            </div>
+
+        </div>
+     </section>
+     <!-- SECCION SERVICIOS-->
+      <section id="servicios" class="servicios">
+        <div class="contenido-servicios">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">LA MEJOR EXPERIENCIA </span>
+                            <h2> SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <P class="p-especial"> ¿Qué estás esperando para comenzar el cambio que siempre has querido ver en ti mismo?</P>
+                    <p>El primer paso hacia tus metas está aquí, en nuestro gimnasio. No importa si estás empezando o si ya tienes experiencia: te ofrecemos el ambiente ideal, el equipo adecuado y el apoyo necesario para que superes tus propios límites. No pospongas más esa transformación que tanto deseas; empieza hoy y construye la mejor versión de ti mismo. ¡Estamos listos para acompañarte en cada paso de tu caminoss</p>
+                </div> 
+                <div class="col">
+                    <img src="img/david_laid-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking0"></i>
+                        <h3><span class="txtRojo">Clases</span> de Fitness</h3>
+                        <p>Transforma tu esfuerzo en resultados, cada entrenamiento es un paso más cerca de la mejor versión de ti mismo. Disponibles desde las</p>
+                        <p> 7am - 5pm</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Clases</span> de Crossfit</h3>
+                        <p>Rompe tus límites, supera tus miedos, y descubre de lo que realmente eres capaz en cada WOD. Disponible desde las</p>
+                        <p>10am - 7pm</p>
+                    </td>
+                </tr>
+                <td>
+                    <i class="fa-solid fa-heart-circle-bolt"></i>
+                    <h3><span class="txtRojo">Clases</span> de cardio</h3>
+                    <p>Corre, salta, acelera: cada latido te acerca más a tu mejor versión. Disponible desde las</p>
+                    <p>1pm - 8pm</p>
+                </td>
+                <td>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h3><span class="txtRojo">Clases</span> de calistenia</h3>
+                    <p>Fortalece tu cuerpo con el peso de tu propia determinación, cada movimiento es progreso. Disponible desde las</p>
+                    <p>3pm - 9pm</p>
+                </td>
+            </table>
+        </div>
+      </section> 
+      <!--SECCION GALERIA-->
+      <section id="galeria" class="galeria">
+        <div class="contenido-seccion">
+           <div class="contenedor-titulo">
+               <div class="numero">
+                 03
+               </div>
+               <div class="info">
+                 <span class="frase">LA MEJOR EXPERIENCIA</span>
+                 <h2>GALERIA</h2>
+               </div>
+           </div>
+           <div class="fila">
+                    <div class="col">
+                      <img src="img/CALISTENIA2.jpg" alt="">
+                    </div>
+                    <div class="col">
+                       <img src="img/GIMNASIO-ARRIBA2.jpg" alt="">
+                    </div>
+                    <div class="col">
+                       <img src="img/GIMNASIO-ARRIBA3.jpg" alt="">
+                    </div>
+                 
+           </div>
+           <div class="fila">
+            <div class="col">
+              <img src="img/MANCUERNAS.jpg">
+            </div>
+            <div class="col">
+               <img src="img/PUESTO-SNACKS.jpg" alt="">
+            </div>
+            <div class="col">
+               <img src="img/PUESTO-SNACKS2.jpg" alt="">
+            </div>
+           
+
+        </div>
+      </section>
+      <main class="products">
+        <div class="tabs conteiner">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">suplementos</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+
+                                    <img src="img/imagen 4.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                   
+                                    <img src="img/imagen 5.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="img/imagen 6.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="img/imagen 7.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="img/imagen 8.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+            
+                                    <img src="img/imagen 9.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">ropas deportivas </label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="mySwiper2">
+                    <div class="swiper-wrapper">
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+
+                                    <img src="img/depor-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                   
+                                    <img src="img/depor-2-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="img/depor-3-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="img/depor-5-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+        
+                       
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="1">
+            <label for="tab3">bebidas</label>
+            
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+
+                                    <img src="img/bebida1-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                   
+                                    <img src="img/bebida2-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="img/bebida3-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="img/bebida4-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="img/bebida5-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+      <!-- SECCION EQUIPO -->
+       <section id="equipo" class="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/noe-calistenia-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>NOE</h2>
+                        <p>Fitness - calistenia</p>
+                        <a href="https://www.facebook.com/noe.veizaga.71?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/wilson-gym-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>WILSON</h2>
+                        <p>Fitness - gimnasio</p>
+                        <a href="https://www.facebook.com/willy.villaescalier?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/hector-gym-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>HECTOR</h2>
+                        <p>Fitness - gimnasio</p>
+                        <a href="https://www.facebook.com/felixjhon.arancibiaperka?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--SECCION UBICACION --> 
+        <section id="ubicacion" class="ubicacion">
+            <div class="contenido-ubicacion">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        05
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>UBICACION</h2>
+                     
+                    </div>
+                </div>
+            </div>
+             
+        </section>
+         <section>
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.0128268190483!2d-63.1411185!3d-17.608745499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e1afacf0865f%3A0x746cc7a395600e06!2sGIBHOR%20GYM!5e1!3m2!1ses!2sbo!4v1724703531619!5m2!1ses!2sbo" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+       </section>
+
+   
+
+      
+       <script src="script.js"></script>
+</body>
+</html>
